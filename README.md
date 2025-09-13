@@ -73,17 +73,18 @@ pixel-runner
 
 ### 项目结构
 
-`
+```
 pixel-runner-game/
- enhanced_game.py      # 主游戏文件
- requirements.txt      # 依赖列表
- setup.py             # 安装配置
- config/              # 配置文件
-    game_config.json
- assets/              # 游戏资源
- tests/               # 测试文件
- docs/                # 文档
-`
+│
+├── enhanced_game.py        # 主游戏文件
+├── requirements.txt        # 依赖列表
+├── setup.py                # 安装配置
+├── config/                 # 配置文件目录
+│   └── game_config.json    # 游戏配置
+├── assets/                 # 游戏资源（图像、音频等）
+├── tests/                  # 测试文件
+└── docs/                   # 项目文档
+```
 
 ### 运行测试
 
@@ -98,3 +99,4 @@ python -m pytest tests/
 ## 许可证
 
 MIT License
+
