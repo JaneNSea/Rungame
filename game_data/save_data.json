@@ -1,0 +1,20 @@
+{
+    "high_score": 490,
+    "total_stars_collected": 17,
+    "total_games_played": 8,
+    "achievements": {
+        "first_100": {
+            "name": "First Steps",
+            "description": "Reach 100 points",
+            "icon": "",
+            "unlocked_at": "2025-09-09T16:05:51.562165"
+        }
+    },
+    "statistics": {
+        "longest_run": 490,
+        "highest_speed": 4.6000000000000005,
+        "obstacles_avoided": 95,
+        "stars_collected": 17
+    },
+    "last_save": "2025-09-11T15:36:35.473221"
+}

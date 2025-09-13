@@ -1,0 +1,45 @@
+﻿{
+    "game": {
+        "width": 480,
+        "height": 270,
+        "scale": 2,
+        "fps": 60,
+        "title": "Pixel Runner Game"
+    },
+    "physics": {
+        "gravity": 0.5,
+        "jump_strength": -10,
+        "initial_obstacle_speed": 4,
+        "speed_increase_rate": 0.2,
+        "speed_increase_interval": 600
+    },
+    "gameplay": {
+        "obstacle_spawn_rate": 1500,
+        "star_spawn_rate": 180,
+        "cloud_spawn_rate": 120,
+        "star_spawn_chance": 0.7,
+        "points_per_obstacle": 10,
+        "points_per_star": 50
+    },
+    "colors": {
+        "sky": [135, 206, 235],
+        "ground": [46, 125, 50],
+        "player": [33, 150, 243],
+        "obstacle": [244, 67, 54],
+        "star": [255, 255, 0],
+        "ui": [76, 175, 80]
+    },
+    "audio": {
+        "sound_enabled": true,
+        "music_enabled": true,
+        "master_volume": 0.7,
+        "sfx_volume": 0.8,
+        "music_volume": 0.5
+    },
+    "controls": {
+        "jump_key": "space",
+        "pause_key": "p",
+        "restart_key": "r",
+        "menu_key": "escape"
+    }
+}
